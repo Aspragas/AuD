@@ -31,7 +31,7 @@ private:
         for(int i = 0; i<p; ++i){
             ptr = ptr->next;
         }
-        printf("%d", ptr->data);
+        printf("%d\n", ptr->data);
     }
     void print(ListNode* &ptr){
         if(ptr == NULL) return;
